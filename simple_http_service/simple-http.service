@@ -1,0 +1,16 @@
+[Unit]
+Description=Simple HTTP Server Service
+After=network.target
+
+[Service]
+Type=simple
+User=YOUR_USERNAME
+Group=YOUR_USERNAME
+WorkingDirectory=/path/to/simple_http_service
+ExecStart=/usr/bin/python3 -m http.server 9000
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+
