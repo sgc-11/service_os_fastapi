@@ -419,9 +419,8 @@ pip install pytest httpx
 
 ## 🎓 Créditos
 
-Proyecto desarrollado para OS 2025-2  
-Universidad: [Tu Universidad]  
-Estudiante: [Tu Nombre]
+Proyecto desarrollado para OS 2025-2    
+Estudiante: Simon GC
 
 ---
 
